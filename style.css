@@ -2,15 +2,77 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: darkgreen;
+  background-image: url("home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
-section h2 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  line-height: 100vh;
-  font-size: 5vw;
-  color: #fff;
+h1 {
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  font-size: 12vw;
+  white-space: nowrap;
+  padding-left: -50px;
+  padding-right: -50px;
+  color: #BDDD22;
+  animation: color-change 1s infinite;
+
 }
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: blue; }
+  75% { color: purple; }
+  100% { color: green; }
+}
+
+
+#myText {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: blue;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+#myText {border-radius: 10%;}
+
+::placeholder {
+  color: blue;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  background-color: darkgreen;
+  border: darkgreen;
+  color: white;
+  padding: 20px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: table;
+  font-size: 50px;
+  margin: 10px -15px;
+  cursor: pointer;
+  transition:  0.3s;
+}
+
+.button {border-radius: 45%;}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn:hover {opacity: 0.6}
+

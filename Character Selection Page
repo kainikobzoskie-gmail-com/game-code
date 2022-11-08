@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div.a {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+div.a
+.button1 {background-color: Red;} /*Red*/
+.button2 {background-color: Yellow;} /* Blue */
+</style>
+</head>
+<body>
+<div class="a">
+<h1>Character Selection</h1>
+<p>Choose Your Color:</p>
+
+<button class="button button1">Red</button>
+<button class="button button2">Yellow</button>
+
+</body>
+</html>

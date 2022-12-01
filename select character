@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <body style="background-color:orange;">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Character Selection Screen</title>
+      <h1>Welcome!</h1>
+    <h2>Select Your Character</h2>
+    
+    <h2>To start playing you will select a character of your choice below.</h2>
+    
   <style>
   h1{text-align: center;}
-  p{text-align; center;}
-  div{text-align; center;}
+  h2{text-align: center;}
+  {text-align; center;}
   </style>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-    <h2>Select Your Character</h2>
-    Welcome to the Character Selection Screen!
-    
-    <p><b>You are almost there!!!</b></p>
-    <div>To start playing you will select a character of your choice below.</div>
-    
+  <img src="https://raw.githubusercontent.com/kainikobzoskie-gmail-com/game-code/main/pixil-frame-0%20(1).png" border="7">
     
   </body>
   </html>

@@ -7,15 +7,16 @@
   <title>Character Selection Screen</title>
       <h1>Welcome!</h1>
     <h2>Select Your Character</h2>
-    
     <h2>To start playing you will select a character of your choice below.</h2>
-    
+      
   <style>
   h1{text-align: center;}
   h2{text-align: center;}
   {text-align; center;}
   </style>
   <img src="https://raw.githubusercontent.com/kainikobzoskie-gmail-com/game-code/main/pixil-frame-0%20(1).png" border="7">
-    
+  
+  <img src="https://raw.githubusercontent.com/kainikobzoskie-gmail-com/game-code/main/Dinosaur%20C2.png" border="9">
+
   </body>
   </html>
